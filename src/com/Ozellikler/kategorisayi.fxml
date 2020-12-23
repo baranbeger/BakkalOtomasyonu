@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="444.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Ozellikler.kategorisayiController">
+   <children>
+      <TableView fx:id="tblvwkat" layoutX="49.0" layoutY="52.0" onMouseClicked="#tiklayinca" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #7bed9f;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="tblvwkategoriler" prefWidth="75.0" text="kategoriler" />
+          <TableColumn fx:id="tblvwkategorilersayi" prefWidth="75.0" text="sayi" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

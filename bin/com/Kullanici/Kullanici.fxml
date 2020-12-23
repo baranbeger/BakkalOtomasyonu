@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Kullanici.KullaniciController">
+   <children>
+      <TableView fx:id="tblvwkullanici" layoutX="174.0" layoutY="56.0" onMouseClicked="#tiklayinca" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="tblvwkullanicino" prefWidth="75.0" text="kullanıcıno" />
+          <TableColumn fx:id="tblvwkullaniciisim" prefWidth="75.0" text="isim" />
+            <TableColumn fx:id="tblvwkullanicisoyisim" prefWidth="75.0" text="soyisim" />
+            <TableColumn fx:id="tblvwkullanicitakma" prefWidth="75.0" text="kullanıcı adı" />
+            <TableColumn fx:id="tblvwkullanicisifre" prefWidth="75.0" text="şifre" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>
